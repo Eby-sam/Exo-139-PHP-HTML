@@ -1,5 +1,5 @@
 <hr>
-     <h1>Date du jour (10/01/2022)</h1>
+     <h1>Date du jour</h1>
      <form>
 
        <!-- Instructions : Créer la liste de jour (en chiffres), de mois (en chiffres) et d'année en PHP. -->
