@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -7,15 +6,20 @@
   </head>
   <body>
     <h1>Liste des élèves</h1>
-    <!-- Instructions : Afficher la liste des élèves qui sont présents dans le tableau $students, enrobez les dans un div, un span ou un p -->
+
     <?php
-        //students
-        $students = ['Hulk', 'Iron Man', 'Wonder Woman', 'Black Widow', 'Malicia'];
-     ?>
-     <ul>
-       <?php
-            // TODO votre code ici
-       ?>
-     </ul>
+    //students
+        $students = ['sam', 'greg', 'sarah', 'sonia', 'tsunade'];
+    ?>
+    <ul>
+        <?php
+            $chaine = implode(", ", $students);
+            echo "<div>$chaine</div>";
+        ?>
+    </ul>
 
     <!-- Incluez le fichier index2.php ici bas de manière a obtenir la suite du code HTML. -->
+
+    <?php
+        include "index2.php";
+    ?>
